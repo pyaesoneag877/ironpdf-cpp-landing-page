@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "logo": "/assets/images/LOGO.png",
+    "links": [
+      {"label": "PRODUCTS", "url": "#", "dropdown": true},
+      {"label": "ABOUT US", "url": "#"},
+      {"label": "CAREER", "url": "#"}
+    ]
+  },
+  "hero": {
+    "logo": "/assets/images/PDF.png",
+    "text": {"iron": "IRON", "pdf": "PDF", "for": "for C++"},
+    "subtitle": "Building on the success of IronPDF for .NET",
+    "title1": "Beta Software Program",
+    "title2": "IronPDF for C++",
+    "comingSoon": "Coming soon",
+    "images": {"logo": "/assets/images/icon.png", "banner": "/assets/images/CPP.png"}
+  },
+  "cta": {
+    "header": "Be one of the first",
+    "subtitle": "Sign up NOW to get early access!",
+    "placeholder": "Enter email address",
+    "buttonText": "Sign up now",
+    "statusTag": "# Coming Soon",
+    "description": "IronPDF Beta Program also coming soon for Python | Node.JS | Java"
+  },
+  "features": [
+    "Generate PDFs from HTML in C++",
+    "Combine, split, and modify PDFs quickly in C++",
+    "Extract text and images from PDFs using C++"
+  ],
+  "infoSection": {
+    "mainTitle": "IronPDF for C++",
+    "badge": "COMING<br>SOON",
+    "description": [
+      "The new IronPDF library for C++ will enhance the C++ developer's tool set with robust PDF generation and conversion capabilities.",
+      "IronPDF for C++ will help developers create C++ applications that can do all of these PDF processing tasks and more."
+    ]
+  },
+  "whyMake": {
+    "title": "Why make a",
+    "highlight": "C++ PDF Library",
+    "images": {"icon1": "/assets/images/1.png", "arrow": "/assets/images/HTML to PDF icon.png", "icon2": "/assets/images/2.png"},
+    "paragraphs": [
+      "C++ is one of the most popular, oldest, and important programming languages in use...",
+      "The release of IronPDF for C++ will aid developers in building performant applications..."
+    ]
+  },
+  "earlyAccess": {
+    "title": "Early Access to C++ PDF Library",
+    "description": "Joining the early access program will allow you to collaborate closely with our engineering team..."
+  },
+  "statusCards": [
+    {"pill": "# Released", "brand": "IRON", "pdfColor": "PDF", "lang": "for Java"},
+    {"pill": "# Coming Soon", "brand": "IRON", "pdfColor": "PDF", "lang": "for Python"},
+    {"pill": "# Coming Soon", "brand": "IRON", "pdfColor": "PDF", "lang": "for Node.js"}
+  ],
+  "betaSignup": {
+    "text1": "Sign up to our",
+    "text2": "Beta Program",
+    "statusTag": "Beta Program",
+    "placeholder": "Enter email address",
+    "buttonText": "Sign up now"
+  }
+}

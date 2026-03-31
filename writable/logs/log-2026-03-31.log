@@ -1,0 +1,28 @@
+CRITICAL - 2026-03-31 08:24:03 --> ErrorException: Undefined variable $nav
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 14.
+ 1 APPPATH\Views\home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nav', 'C:\\laragon\\www\\ironpdf-test\\app\\Views\\home.php', 14)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\ironpdf-test\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 08:24:17 --> ErrorException: Undefined variable $nav
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 14.
+ 1 APPPATH\Views\home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nav', 'C:\\laragon\\www\\ironpdf-test\\app\\Views\\home.php', 14)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\ironpdf-test\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
