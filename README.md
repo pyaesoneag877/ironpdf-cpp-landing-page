@@ -9,7 +9,7 @@ It is built with PHP (CodeIgniter 4) and dynamically renders content from JSON.
 ## How to Run
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/pyaesoneag877/ironpdf-cpp-landing-page
 Start PHP server:
 php -S localhost:8080 -t public
 Open http://localhost:8080 in your browser.
@@ -36,16 +36,17 @@ Responsive layout (mobile, tablet, desktop)
 CTA & beta signup email form
 Status cards for product release info
 Hero and feature sections with icons and descriptions
+
 QA Notes
-Tested across multiple browsers: Chrome, Firefox, Edge, Safari
+Tested across multiple browsers: Chrome, Firefox, Edge
 Responsive testing done on device toolbar in Chrome DevTools
 Lighthouse audit performed:
 Performance: 95
 Accessibility: 98
 SEO: 90
 All sections aligned, font sizes correct, colors match design
-Contact
 
+Contact
 For issues or suggestions, contact pyaesoneag877@gmail.com
 
 
